@@ -2,8 +2,8 @@
 Console.WriteLine("Hello, World!");
 var tipo1 = new TiposUsuarios(1, "Admin");
 var tipo2 = new TiposUsuarios(2, "Normal");
-
 var lista = new List<TiposUsuarios>();
+
 lista.Add(tipo1);
 lista.Add(tipo2);
 
@@ -30,7 +30,7 @@ var usuario2 = new Usuarios(
     DateTime.Now, 
     27.0, 
     true, 
-    new TiposUsuarios(3, "Estudiante")
+    new TiposUsuarios(3, " Estudiante")
 );
 
 public class Usuarios
@@ -62,7 +62,7 @@ public class TiposUsuarios
 
     public TiposUsuarios()
     {
-
+//constructor vacio
     }
 
     public TiposUsuarios(int id, string? nombre)
