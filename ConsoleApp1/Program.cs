@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 var tipo1 = new TiposUsuarios(1, "Admin");
-var tipo2 = new TiposUsuarios(2, "Normal");
+var tipo2 = new TiposUsuarios(2, " Normal");
 var lista = new List<TiposUsuarios>();
 
 lista.Add(tipo1);
